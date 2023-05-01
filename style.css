@@ -1,0 +1,77 @@
+body {
+    margin: auto;
+    margin-top: 50px;
+    
+    width: 50%;
+  }
+h1{
+  text-align: center;
+  font-weight: 800;
+  font: size 150px;;
+  margin-right: 100px;
+  margin-bottom: 0px;
+}
+
+.title_box th:nth-child(2) {
+ width: 300px;
+}
+.title_box th:nth-child(4) {
+    width: 175px;
+   }
+
+
+   .title_box th,
+   .title_box td {
+    margin-top: 0px;
+     border: 3px solid red;
+     padding: 8px;
+     height: 10px;
+   }
+   
+
+.my-table {
+    border: 2px solid black;
+    border-collapse: collapse;
+  }
+.my-table tr:nth-child(odd){
+  background-color: #FADEDE;
+}
+
+
+  .my-table th:nth-child(1),
+  .my-table td:nth-child(1){
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+  }
+  .my-table th:nth-child(2),
+  .my-table td:nth-child(2){
+    width: 300px;
+    height: 15px;
+    line-height: 15px;
+  }
+  .my-table th:nth-child(3),
+  .my-table td:nth-child(3),.my-table th:nth-child(4),
+  .my-table td:nth-child(4),.my-table th:nth-child(5),
+  .my-table td:nth-child(5){
+    width: 70px;
+    height: 15px;
+    line-height: 15px;
+  }
+  
+
+
+
+  .my-table th{
+    background-image: linear-gradient(to right, #EF2B28,#F0E1E1);
+    color: white;
+    font-weight: bolder;
+  }
+  .my-table th,
+  .my-table td,
+  .my-table tr {
+    border: 2px solid red;
+    padding: 8px;
+  }
+
+  
