@@ -7,7 +7,7 @@ h1{
   position: absolute;
   font-weight: 800;
   font: size 120px;
-  margin-left: 260px;
+  margin-left: 270px;
   
 }
 
@@ -97,15 +97,40 @@ h1{
 }
 .follow_links {
   position: absolute;
-  top: 770px;
+  margin-top: 5px;
   margin-left: 250px;
   }
+
 .follow_links tr,
 .follow_links td{
+  min-width: 20px;
+  max-height: 5px;
   border: 2px solid red;
+  border-collapse: collapse;
   padding: 1px;
   height: 10px;
-  width: 50px;
+  width: 10px;
 }
-
+.free_offer{
+  min-width: 10px;
+  font-size: small;
+  font-weight: bold;
+}
+.qrcode{
+  min-width: 10px;
+  padding: 1px;
+  height: min-content;
+}
+.about_us{
+  
+  padding: 2px;
+  text-align: center;
+  font-size: small;
+  font-weight: bold;
+}
+.Youtube_link{
+  /* width: 50px; */
+  min-width: 15px;
+  text-align: center;
+}
   
