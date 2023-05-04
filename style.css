@@ -1,11 +1,10 @@
 body {
     margin: 2px;
-    position: fixed;
-    height: 100vh;
+    position: absolute;
+    /* height: 100vh; */  
   }
 h1{
-  position: fixed;
-  
+  position: absolute;
   font-weight: 800;
   font: size 120px;
   margin-left: 260px;
@@ -14,7 +13,7 @@ h1{
 
 .title_box
 {
-  position: fixed;
+  position: absolute;
   margin-left: 250px;
   margin-top: 60px;
   margin-bottom: 45px;
@@ -30,7 +29,7 @@ h1{
 
 .my-table{
   
-  position: fixed;
+  position: absolute;
   margin-left: 250px;
   margin-right: 0px;
   margin-top: 110px;
@@ -54,59 +53,59 @@ h1{
 }
 
 
-  .my-table th:nth-child(1),
-  .my-table td:nth-child(1){
-    width: 15px;
-    height: 15px;
-    line-height: 15px;
-  }
-  .my-table th:nth-child(2),
-  .my-table td:nth-child(2){
-    width: 300px;
-    height: 15px;
-    line-height: 15px;
-  }
-  .my-table th:nth-child(3),
-  .my-table td:nth-child(3),.my-table th:nth-child(4),
-  .my-table td:nth-child(4),.my-table th:nth-child(5),
-  .my-table td:nth-child(5){
-    width: 70px;
-    height: 15px;
-    line-height: 15px;
-  }
-  
-
-
-
-  .my-table th{
-    background-image: linear-gradient(to right, #EF2B28,#F0E1E1);
-    color: white;
-    font-weight: bolder;
-  }
-  .my-table th,
-  .my-table td,
-  .my-table tr {
-    border: 2px solid red;
-    padding: 8px;
+.my-table th:nth-child(1),
+.my-table td:nth-child(1){
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
   }
 
-  .inform{
-    position: fixed;
-    top: 675px;
-    margin-left: 250px;
+.my-table th:nth-child(2),
+.my-table td:nth-child(2){
+  width: 300px;
+  height: 15px;
+  line-height: 15px;
   }
-  .follow_links {
-    position: fixed;
-    top: 790px;
-    margin-left: 250px;
-    }
-  .follow_links tr,
-  .follow_links td{
-    border: 2px solid red;
-    padding: 1px;
-    height: 50px;
-    width: 50px;
+.my-table th:nth-child(3),
+.my-table td:nth-child(3),.my-table th:nth-child(4),
+.my-table td:nth-child(4),.my-table th:nth-child(5),
+.my-table td:nth-child(5){
+  width: 70px;
+  height: 15px;
+  line-height: 15px;
+  }
 
+.my-table th{
+  background-image: linear-gradient(to right, #EF2B28,#F0E1E1);
+  color: white;
+  font-weight: bolder;
+}
+.my-table th,
+.my-table td,
+.my-table tr {
+  border: 2px solid red;
+  padding: 8px;
   }
+
+.inform{
+  /* position: fixed; */
+  margin-top: 690px;
+  top: 675px;
+  margin-left: 250px;
+  margin-right: 575px;
+  margin-bottom: 0px;
+}
+.follow_links {
+  position: absolute;
+  top: 770px;
+  margin-left: 250px;
+  }
+.follow_links tr,
+.follow_links td{
+  border: 2px solid red;
+  padding: 1px;
+  height: 10px;
+  width: 50px;
+}
 
   
