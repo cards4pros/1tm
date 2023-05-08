@@ -7,14 +7,14 @@ h1{
   position: absolute;
   font-weight: 800;
   font: size 120px;
-  margin-left: 270px;
+  margin-left: 250px;
   
 }
 
 .title_box
 {
   position: absolute;
-  margin-left: 250px;
+  margin-left: 220px;
   margin-top: 60px;
   margin-bottom: 45px;
 }
@@ -30,7 +30,7 @@ h1{
 .my-table{
   
   position: absolute;
-  margin-left: 250px;
+  margin-left: 220px;
   margin-right: 0px;
   margin-top: 110px;
 }
@@ -91,19 +91,19 @@ h1{
   /* position: fixed; */
   margin-top: 690px;
   top: 675px;
-  margin-left: 250px;
-  margin-right: 575px;
+  margin-left: 220px;
+  
   margin-bottom: 0px;
 }
 .follow_links {
   position: absolute;
-  margin-top: 5px;
-  margin-left: 250px;
+  margin-top: 3px;
+  margin-left: 220px;
   }
 
 .follow_links tr,
 .follow_links td{
-  min-width: 20px;
+  min-width: 15px;
   max-height: 5px;
   border: 2px solid red;
   border-collapse: collapse;
